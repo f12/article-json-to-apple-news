@@ -439,7 +439,9 @@ test('embeds', t => {
       {
         type: 'embed',
         embedType: 'video',
-        src: 'http://mic.com/video.gif'
+        sources: [
+          {src: 'http://mic.com/video.gif'}
+        ]
       }
     ]
   };
